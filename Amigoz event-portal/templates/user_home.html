@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Event Management System</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{% static 'css/index1.css' %}">
+   <style>
+      .my-block {
+        text-align: center;
+        vertical-align:middle;
+
+      }
+      .button {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: #d39e00;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .button:hover span {
+        padding-right: 25px;
+      }
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+  </style>
+</head>
+
+<body style="background-image: url('/static/res/yellow.jpeg');background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;">
+<div class="container-fluid header text-center ">
+  <h1 style="color: black;font-weight: 700;"><b>CHRIST COLLEGE</b> <BR><i>Events Management System</i></h1>
+  <h3 style="color: black;font-weight: 600;"> <i>Welcome {{ name }} </i></h3>
+   <div class="my-block">
+            <a href="{% url 'scmapp:user_logout' %}"><button class="button" ><span>LOGOUT</span></button></a>
+     </div>
+  <span style="font-size:24px">{{ status }}</span>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <a href="{% url 'scmapp:user_event' %}">
+      <div class="card " style="background-color:white;">
+        <img src="{% static 'res/basketball.jpeg' %}">
+        <div class="card-title text-center" style="color: black;">Events</div>
+      </div>
+      </a>
+    </div>
+
+<!--    <div class="col-lg-6">-->
+<!--      <a href="{% url 'scmapp:ground_booking' %}">-->
+<!--      <div class="card ">-->
+<!--        <img src="{% static 'res/football.jpeg' %}" style="height:460px;">-->
+<!--        <div class="card-title text-center" style="color: black;">Events Booking</div>-->
+<!--      </div>-->
+<!--      </a>-->
+<!--    </div>-->
+
+    <div class="col-lg-6">
+      <a href="{% url 'scmapp:admission' %}">
+      <div class="card " >
+        <img src="{% static 'res/colorball.jpeg' %}" style="height:460px;">
+        <div class="card-title text-center" style="color: black;">Registered Students details</div>
+      </div>
+      </a>
+    </div>
+
+
+    <div class="col-lg-6"><center>
+      <a href="{% url 'scmapp:upcoming' %}">
+      <div class="cards " style="background-color:black;">
+        <img src="{% static 'res/upcoming1.jpeg' %}" style="height:460px;width:1000px;">
+        <div class="cards-title text-center" style="color: black;">  </div>
+      </div>
+      </a></center>
+    </div>
+
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+
+</body>
+</html>

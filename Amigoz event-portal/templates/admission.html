@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CHRIST COLLEGE Admissions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/admin_event.css' %}">
+</head>
+<body style="background-image: url('/static/res/grey.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;" >
+<div class="container-fluid header text-center ">
+    <h2 style="color: white;">CHRIST COLLEGE </h2>
+    <h3 style="color: white;">ADMISSIONS </h3>
+</div>
+<div class="container box" style="background:#c3073f"><center>
+    <h2  style="color: white;">REGISTERED STUDENTS DETAILS</h2></center>
+  <table>
+    <tr  style="color: white;background-color:black;">
+      <td>No</td>
+      <td>Event name</td>
+      <td>Participants</td>
+    </tr>
+
+    {% for event in events %}
+    <tr>
+     <td>{{ forloop.counter }}</td>
+     <td>{{ event.regevent }}</td>
+      <td>{{ event.name }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+   <div class="footer">
+    <a href="{% url 'scmapp:user_home' %}"><button>Back</button></a>
+  </div>
+</div>
+</body>
+</html>
