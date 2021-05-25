@@ -9,9 +9,10 @@ We've created our project in such a way that anyone could easily access and go t
 2. Enric S Neelamkavil 
 3. Vaishnav M J 
 ## Team Id:
- BFH/7994043754/2021
+BFH/recsLQZuW3afSK1GK/2021.
 ## Link to product walkthrough
-[link to video]
+https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=sharing
+https://drive.google.com/file/d/1QrP7JyULGr_EcIPC6_-ZR8CZ-oW_n21s/view?usp=sharing
 ## How it Works ?
 1. The working of project : It works in the django platform ,download each and every file in my git hub page amigoz without missing any files and using pycharm application run it .
 	First : in terminal use python manage.py makemigrations
@@ -23,7 +24,6 @@ We've created our project in such a way that anyone could easily access and go t
 	four : goes to the user home and select the event and register for it 
 	five : registered students details will be in registered student details and the upcoming event details will be also in user home
 	six : the url we got in the beginning add a /admin so that you can go to admin page ,by giving admin name and password 
-2. Embed video of project demo
 ## Libraries used
 imported :
   	send_mail
