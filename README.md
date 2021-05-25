@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=shari
 	five : registered students details will be in registered student details and the upcoming event details will be also in user home
 	six : the url we got in the beginning add a /admin so that you can go to admin page ,by giving admin name and password 
 	
-demo vedio :https://drive.google.com/file/d/1QrP7JyULGr_EcIPC6_-ZR8CZ-oW_n21s/view?usp=sharing
+demo vedio :https://drive.google.com/file/d/1LpkarKqNWml-ZfIk0bRpTa3pG1KybU7-/view?usp=drivesdk
 ## Libraries used
 imported :
   	send_mail
