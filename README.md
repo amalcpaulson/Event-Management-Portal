@@ -39,7 +39,7 @@ urllib3==1.26.4
  Html
  CSS
 ## How to configure
- download the codes from my git page and open it in pycharm application.
+ Download the codes from my git page and open it in pycharm application.                      
  in terminal { pip install -r requirements.txt [or] pip3 install -r requirements.txt }
  Next step is to install all library files as given above , and run the program using { python manage.py runserver [or] python3 manage.py runserver }
  So a website link appeares in the terminal ,just click on it .
