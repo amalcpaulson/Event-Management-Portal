@@ -14,8 +14,8 @@ BFH/recsLQZuW3afSK1GK/2021.
 https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=sharing
 
 ## How it Works ?
-1. The working of project : It works in the django platform ,download each and every file in my git hub page amigoz without missing any files and using pycharm application run it .
-	First : in terminal use python manage.py makemigrations
+1. The working of project : It works in the django platform ,download each and every file in my git hub page amigoz without missing any files and using pycharm application run it .                             
+       	First : in terminal use python manage.py makemigrations                                       
 				python manage.py migrate
 				python manage.py createsuperuser { give name,email,password to login in admin page}
 				python manage.py runserver
@@ -35,13 +35,13 @@ PyYAML==5.4.1
 sqlparse==0.4.1
 urllib3==1.26.4
 ## OTHER LANGUAGES USED
- Java script
- Html
+ Java script,
+ Html,
  CSS
 ## How to configure
  Download the codes from my git page and open it in pycharm application.                      
- in terminal { pip install -r requirements.txt [or] pip3 install -r requirements.txt }
- Next step is to install all library files as given above , and run the program using { python manage.py runserver [or] python3 manage.py runserver }
+ In terminal { pip install -r requirements.txt [or] pip3 install -r requirements.txt }                      
+ Next step is to install all library files as given above , and run the program using { python manage.py runserver [or] python3 manage.py runserver }                     
  So a website link appeares in the terminal ,just click on it .
 ## How to Run
 Just check above for more details contact acp070146@gmail.com
