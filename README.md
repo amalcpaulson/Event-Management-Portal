@@ -9,7 +9,7 @@ We've created our project in such a way that anyone could easily access and go t
 2. Enric S Neelamkavil                                                                                                                                                       
 3. Vaishnav M J                                                                                                  
 ## Team Id:
-BFH/recsLQZuW3afSK1GK/2021.
+BFH/recsLQZuW3afSK1GK/2021
 ## Link to product walkthrough
 https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=sharing
 
