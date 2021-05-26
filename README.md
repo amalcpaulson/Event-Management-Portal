@@ -15,15 +15,15 @@ https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=shari
 
 ## How it Works ?
 1. The working of project : It works in the django platform ,download each and every file in my git hub page amigoz without missing any files and using pycharm application run it .                             
-       	First : in terminal use python manage.py makemigrations                                       
-				python manage.py migrate
-				python manage.py createsuperuser { give name,email,password to login in admin page}
-				python manage.py runserver
-	second: in terminal now it will show a url ,just click on it.It will direct you to home page of website
-	third : click on registration ,goes to registration and login page .Give nessesory details.
-	four : goes to the user home and select the event and register for it 
-	five : registered students details will be in registered student details and the upcoming event details will be also in user home
-	six : the url we got in the beginning add a /admin so that you can go to admin page ,by giving admin name and password 
+       	First : In terminal use python manage.py makemigrations,,,
+				python manage.py migrate,,,
+				python manage.py createsuperuser { give name,email,password to login in admin page},,,
+				python manage.py runserver,,,                                                   
+	second: In terminal now it will show a url ,just click on it.It will direct you to home page of website.                                             
+	third : Click on registration ,goes to registration and login page .Give nessesory details.                             
+	four : Goes to the user home and select the event and register for it .                                                             
+	five : Registered students details will be in registered student details and the upcoming event details will be also in user home.                             
+	six : The url we got in the beginning add a /admin so that you can go to admin page ,by giving admin name and password .                                
 	
 2.demo vedio :https://drive.google.com/file/d/1LpkarKqNWml-ZfIk0bRpTa3pG1KybU7-/view?usp=drivesdk
 ## Libraries used
