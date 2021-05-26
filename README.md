@@ -15,7 +15,7 @@ https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=shari
 
 ## How it Works ?
 1. The working of project : It works in the django platform ,download each and every file in my git hub page amigoz without missing any files and using pycharm application run it .                             
-        First : In terminal use 
+        First : In terminal use                                                                                                                                        
                               >>python manage.py makemigrations,,,                                                                                                         
 	                      >>python manage.py migrate,,,                                                                                                                
                               >>python manage.py createsuperuser { give name,email,password to login in admin page},,,                                                     
