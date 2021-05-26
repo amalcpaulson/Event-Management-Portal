@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1yQBFPVf8SuXy9ijl9xKdUP3FuCtbJWhw/view?usp=shari
 	five : registered students details will be in registered student details and the upcoming event details will be also in user home
 	six : the url we got in the beginning add a /admin so that you can go to admin page ,by giving admin name and password 
 	
-demo vedio :https://drive.google.com/file/d/1LpkarKqNWml-ZfIk0bRpTa3pG1KybU7-/view?usp=drivesdk
+2.demo vedio :https://drive.google.com/file/d/1LpkarKqNWml-ZfIk0bRpTa3pG1KybU7-/view?usp=drivesdk
 ## Libraries used
 Django==3.2.3
 Keras==2.4.3
@@ -34,7 +34,14 @@ oauthlib==3.1.0
 PyYAML==5.4.1
 sqlparse==0.4.1
 urllib3==1.26.4
+## OTHER LANGUAGES USED
+ Java script
+ Html
+ CSS
 ## How to configure
-
+ download the codes from my git page and open it in pycharm application.
+ in terminal { pip install -r requirements.txt [or] pip3 install -r requirements.txt }
+ Next step is to install all library files as given above , and run the program using { python manage.py runserver [or] python3 manage.py runserver }
+ So a website link appeares in the terminal ,just click on it .
 ## How to Run
 Just check above for more details contact acp070146@gmail.com
