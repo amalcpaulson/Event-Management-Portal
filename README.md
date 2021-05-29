@@ -45,6 +45,6 @@ urllib3==1.26.4
  Next step is to install all library files as given above , and run the program using { python manage.py runserver [or] python3 manage.py runserver }                     
  So a website link appeares in the terminal ,just click on it .
 ## LIVE PROJECT URL
-http://127.0.0.1:8000/
+http://amalcp.pythonanywhere.com/
 ## How to Run
 Just check above for more details contact acp070146@gmail.com
